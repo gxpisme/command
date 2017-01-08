@@ -43,7 +43,7 @@ class script {
     }
 
     public static function debase($str) {
-        print_r(base64_encode($str));
+        print_r(base64_decode($str));
     }
 
     public static function __callStatic($method, $param) {
