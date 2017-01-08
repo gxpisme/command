@@ -1,0 +1,6 @@
+alias enurl='php ~/.mescript enurl'
+alias deurl='php ~/.mescript deurl'
+alias enser='php ~/.mescript enser'
+alias deser='php ~/.mescript deser'
+alias enbase='php ~/.mescript enbase'
+alias debase='php ~/.mescript debase'
