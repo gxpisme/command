@@ -6,10 +6,10 @@
  * @wechat gxpisme
  */
 
-script::run($argv);
+Script::run($argv);
 echo PHP_EOL;
 
-class script {
+class Script {
 
     public static function run($argv) {
         if (3 > count($argv)) {
