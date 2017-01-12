@@ -33,6 +33,7 @@ Array
 
 #### json解码 dejson
 [xpisme@aliyun ~]$ dejson '{"name":"xpisme"}'
+
 Array
 (
     [name] => xpisme
