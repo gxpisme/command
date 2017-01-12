@@ -2,6 +2,8 @@
 ### 1：确保环境变量有php
 ### install
 sh install.sh
+### 重新加载环境变量
+source ~/.bashrc
 ### use
 #### url编码 enurl
 [xpisme@aliyun ~]$ enurl 'http://www.baidu.com'
@@ -24,6 +26,13 @@ xpisme
 #### 反序列化 deser
 [xpisme@aliyun ~]$ deser 'a:1:{s:4:"name";s:6:"xpisme";}'
 
+Array
+(
+    [name] => xpisme
+)
+
+#### json解码 dejson
+[xpisme@aliyun ~]$ dejson '{"name":"xpisme"}'
 Array
 (
     [name] => xpisme
