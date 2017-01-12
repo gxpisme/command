@@ -45,6 +45,10 @@ class Script {
     public static function debase($str) {
         print_r(base64_decode($str));
     }
+    
+    public static function dejson($str) {
+        print_r(json_decode($str, true));
+    }
 
     public static function __callStatic($method, $param) {
         echo  $method . '方法不存在';
