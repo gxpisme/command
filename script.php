@@ -50,6 +50,13 @@ class Script {
         print_r(json_decode($str, true));
     }
 
+    public static function deunicode($str) {
+        $json = '{"foo":"' . $str . '"}';
+        $d = json_decode($json, true);
+        $str = $d['foo'];
+        print_r($str);
+    }
+
     public static function __callStatic($method, $param) {
         echo  $method . '方法不存在';
     }
