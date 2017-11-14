@@ -4,42 +4,4 @@
 sh install.sh
 ### 重新加载环境变量
 source ~/.bashrc
-### use
-#### url编码 enurl
-[xpisme@aliyun ~]$ enurl 'http://www.baidu.com'
-
-http%3A%2F%2Fwww.baidu.com
-#### url解码 deurl
-[xpisme@aliyun ~]$ deurl http%3A%2F%2Fwww.baidu.com
-
-http://www.baidu.com
-
-#### base64编码 enbase
-[xpisme@aliyun ~]$ enbase xpisme
-
-eHBpc21l
-#### base64解码 debase
-[xpisme@aliyun ~]$ debase eHBpc21l
-
-xpisme
-
-#### 反序列化 deser
-[xpisme@aliyun ~]$ deser 'a:1:{s:4:"name";s:6:"xpisme";}'
-
-Array
-(
-    [name] => xpisme
-)
-
-#### json解码 dejson
-[xpisme@aliyun ~]$ dejson '{"name":"xpisme"}'
-
-Array
-(
-    [name] => xpisme
-)
-
-#### Unicode解码 deunicode '\u5728'
-[xpisme@aliyun ~]$ deunicode '\u5728'
-
-在
+![](http://oz5huhxgd.bkt.clouddn.com/201711141319_638.png)
